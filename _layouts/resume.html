@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="resume">
+
+     <header class="resume__header">
+         <h1 class="resume__opening">
+             {{ content }}
+         </h1>
+
+     </header>
+
+    <h2 class="resume__title">Employment history</h2>
+
+     <section class="resume__employments">
+
+         <ul class="resume__employments-list">
+             {% assign employments = site.employments | sort: 'start_date' | reverse %}
+             {% for employment in employments %}
+                {% include resume/employment.html %}
+             {% endfor %}
+         </ul>
+     </section>
+
+     <footer class="resume__footer">
+         <h1 class="resume__high-five">✋</h1>
+         <h3 class="resume__thanks">
+             Thanks for reading.
+             <br>
+             High five!
+         </h3>
+     </footer>
+
+ </article>

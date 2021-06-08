@@ -1,0 +1,36 @@
+.employment {
+
+  margin-bottom: 4rem;
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__position {
+    margin-bottom: 0.15rem;
+    font-weight: 600;
+  }
+
+  &__mode {
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+
+  &__company {
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  &__description {
+    margin: 1.5rem 0;
+  }
+
+  &__dates {
+    margin-bottom: 0.5rem;
+  }
+
+  &__stack {
+    margin-bottom: 0;
+  }
+
+}

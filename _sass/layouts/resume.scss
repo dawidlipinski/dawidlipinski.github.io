@@ -1,0 +1,26 @@
+.resume {
+
+  &__header, &__employments {
+    margin-bottom: 6rem;
+  }
+
+  &__opening {
+    font-size: 2em;
+  }
+
+  &__title {
+    font-size: 1em;
+    margin-bottom: 2rem;
+  }
+
+  &__footer {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  &__high-five {
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+  }
+
+}
