@@ -10,4 +10,11 @@ stack:
 - Node.js
 - SCSS
 ---
-Very easy to work these to death. How do you make a round circle with a square knife? That's your challenge for the day. Isn't that fantastic that you can create an almighty tree that fast? Maybe he has a little friend that lives right over here.
+First steps in commercial web development
+
+Responsible for development and maintenance of marketing platform for a procurement company
+
+Personally built the e-marketing module allowing users to design and schedule e-mail newsletters
+
+Working on-site as a part of a mid-sized team
+

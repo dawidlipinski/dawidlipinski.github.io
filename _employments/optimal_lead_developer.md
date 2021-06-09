@@ -12,4 +12,10 @@ stack:
 - Vue.js
 - SCSS
 ---
-Very easy to work these to death. How do you make a round circle with a square knife? That's your challenge for the day. Isn't that fantastic that you can create an almighty tree that fast? Maybe he has a little friend that lives right over here.
+Building cutting-edge business solutions using Laravel framework
+
+Leading a project aimed at developing bespoke CRM platform for a well-established procurement company
+
+Responsible for all aspects of development: project management, development, deployment, testing and maintenance
+
+Working remotely from Konin, Poland

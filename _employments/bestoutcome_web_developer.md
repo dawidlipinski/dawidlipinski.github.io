@@ -7,6 +7,13 @@ end_date: 2019-03-01
 stack:
     - ASP.NET
     - T-SQL
+    - SSRS
     - SCSS
 ---
-Very easy to work these to death. How do you make a round circle with a square knife? That's your challenge for the day. Isn't that fantastic that you can create an almighty tree that fast? Maybe he has a little friend that lives right over here.
+Responsible for development and maintenance of an award-winning PPM tool
+
+Implemented a number of SSRS reports
+
+Helped with migration from an outdated source-control solution to GitHub
+
+Working on-site as a part of a mid-sized team
