@@ -1,20 +1,36 @@
 <li class="employment">
 
     <section class="employment__heading">
-        <h2 class="employment__position">{{ employment.position }}<span class="employment__mode">/ {{ employment.mode }}</span></h2>
-        <h3 class="employment__company">{{ employment.company }}</h3>
+
+        <h2 class="employment__position">
+            {{ employment.position }}
+            <span class="employment__company">
+                <a class="employment__company" href="{{ employment.company_url }}" target="_blank">
+                    {{ employment.company }}
+                </a>
+            </span>
+            <!--            <span class="employment__mode employment__mode&#45;&#45;{{ employment.mode }}">-->
+            <!--                {{ employment.mode }}-->
+            <!--            </span>-->
+        </h2>
+        <p class="employment__dates">
+            {{ employment.start_date | date: "%B %Y" }} - {{ employment.end_date | date: "%B %Y" | default: 'Present' }}
+        </p>
+
+
     </section>
 
     <section class="employment__description">
         {{ employment.content | markdownify }}
     </section>
 
-    <p class="employment__stack">Stack:
+    <p class="employment__stack">
         {% for tech in employment.stack %}
-            {{ tech }}{% if forloop.last != true %}, {% endif %}
+        <span class="employment__stack__tech">
+                {{ tech }}
+            </span>
         {% endfor %}
     </p>
 
-    <p class="employment__dates">{{ employment.start_date | date: "%B %Y" }} - {{ employment.end_date | date: "%B %Y" | default: 'Present' }}</p>
 
 </li>

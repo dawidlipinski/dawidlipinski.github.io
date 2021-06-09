@@ -1,7 +1,8 @@
 ---
 company: Bestoutcome
+company_url: https://bestoutcome.com
 position: Web Developer
-mode: In-person
+mode: in-person
 start_date: 2018-03-01
 end_date: 2019-03-01
 stack:

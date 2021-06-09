@@ -2,8 +2,8 @@
 layout: resume
 title: "Dawid Lipinski - Web Developer"
 ---
-Full-stack developer working remotely from Konin, Poland.
+Full-stack developer working remotely from Konin, Poland
 
-Over 4 years of commercial experience of building and maintaining web apps.
+Over 4 years of commercial experience
 
-Currently building a bespoke CRM platform with Optimal Monitoring.
+Currently working at Optimal Monitoring.

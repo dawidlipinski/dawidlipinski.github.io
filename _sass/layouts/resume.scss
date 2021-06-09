@@ -5,22 +5,32 @@
   }
 
   &__opening {
-    font-size: 1.5em;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-family: $font-display;
   }
 
   &__title {
-    font-size: 1em;
     margin-bottom: 2rem;
+    font-size: 1em;
+    opacity: 0.5;
   }
 
   &__footer {
     text-align: center;
     font-size: 1em;
+    font-family: $font-display;
   }
 
   &__high-five {
     font-size: 2em;
     margin-bottom: 0.5rem;
+  }
+
+  &__thanks {
+    font-size: 1em;
+    line-height: 1.5em;
+    opacity: 0.75;
   }
 
 }

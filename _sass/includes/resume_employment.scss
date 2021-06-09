@@ -4,33 +4,57 @@
 
   &__heading {
     margin-bottom: 1rem;
+    font-family: $font-display;
   }
 
   &__position {
-    margin-bottom: 0.15rem;
+    font-size: 1.25em;
+    margin-bottom: 0.5rem;
     font-weight: 600;
-  }
-
-  &__mode {
-    font-weight: normal;
-    margin-left: 0.5rem;
+    letter-spacing: 1px;
   }
 
   &__company {
-    display: inline-block;
-    border-bottom: 1px dotted black;
+    margin-left: 0.15rem;
+    text-decoration: none;
+    color: $color-accent-dark;
   }
 
-  &__description {
-    margin: 1.5rem 0;
+  &__mode {
+    margin-left: 0.5rem;
+
+    &--in-person {
+      color: $color-accent-dark;
+    }
+
+    &--remote {
+      color: $color-accent-light;
+    }
   }
 
   &__dates {
+    opacity: 0.75;
+  }
+
+  &__description {
     margin-bottom: 0.5rem;
+    line-height: 2em;
+    opacity: 0.75;
   }
 
   &__stack {
-    margin-bottom: 0;
-  }
+    opacity: 0.75;
+    line-height: 1.75em;
 
+    &__tech {
+      background-color: darken($background-color, 5%);
+      font-size: 0.85em;
+      margin: 0.3rem;
+      margin-left: 0;
+      line-height: 1em;
+      vertical-align: middle;
+      padding: 0.15rem 0.3rem;
+      border-radius: 2px;
+    }
+  }
 }

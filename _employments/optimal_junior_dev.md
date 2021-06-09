@@ -1,7 +1,8 @@
 ---
 company: Optimal Monitoring
+company_url: https://optimalmonitoring.com
 position: Junior Web Developer
-mode: In-person
+mode: in-person
 start_date: 2017-06-01
 end_date: 2018-07-01
 stack:

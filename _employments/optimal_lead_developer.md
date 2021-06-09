@@ -1,7 +1,8 @@
 ---
 company: Optimal Monitoring
+company_url: https://optimalmonitoring.com
 position: Web Developer
-mode: Remote
+mode: remote
 start_date: 2019-04-01
 end_date:
 stack:
