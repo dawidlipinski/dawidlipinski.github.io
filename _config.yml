@@ -1,5 +1,6 @@
 url: "dawidlipinski.github.io"
-baseurl: "https://dawidlipinski.github.io"
+baseurl: ""
 title: "Dawid Lipinski Web Developer"
+description: "Dawid Lipinski, full-stack web developer for hire specializing in PHP and Javascript. Currently focusing on Laravel framework development"
 collections:
   - employments
