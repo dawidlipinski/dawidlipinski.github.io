@@ -6,4 +6,4 @@ Full-stack developer working remotely from Konin, Poland
 
 Over 4 years of commercial experience
 
-Currently working at Optimal Monitoring.
+Currently at Optimal Monitoring
