@@ -9,7 +9,20 @@
     <link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}" />
   </head>
   <body>
-      {% include header.html %}
-      {{ content }}
+      <div class="container">
+        {% include header.html %}
+          <div class="wip">
+              <div class="container">
+                  Warning
+                  <span class="wip__icon">
+                        <img src="{{ "/assets/icons/wip.svg" | relative_url }}" alt="">
+                  </span>
+                  <p>
+                      This site is under construction!
+                  </p>
+              </div>
+          </div>
+        {{ content }}
+      </div>
   </body>
 </html>
