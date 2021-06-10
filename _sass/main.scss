@@ -37,6 +37,12 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  body {
+    padding: 1rem;
+  }
+}
+
 .container {
   max-width: 768px;
   margin: 0 auto;
